@@ -1,6 +1,5 @@
-import GameTime from '@/elements/GameTime'
 
-export default function GameJeep(canvasId, options) {
+function GameJeep(canvasId, options) {
   GameTime.call(this, canvasId, options)
   const engineer = this
   const jeepImage = options.jeepImage

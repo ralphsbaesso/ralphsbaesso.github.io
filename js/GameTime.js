@@ -1,4 +1,4 @@
-export default function GameTime(canvasId = null, options = {}) {
+function GameTime(canvasId = null, options = {}) {
   // eslint-disable-next-line no-unused-vars
   const _options = options
 
